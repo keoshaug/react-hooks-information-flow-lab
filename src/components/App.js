@@ -5,6 +5,7 @@ import itemData from "../data/items";
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false);
+  console.log("running")
 
   function onDarkModeClick() {
     setIsDarkMode((isDarkMode) => !isDarkMode);

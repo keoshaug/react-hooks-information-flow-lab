@@ -4,12 +4,12 @@ import App from "./App";
 function Header({isDarkMode, onDarkModeClick}) {
     return (
         <>
-        <Header>
+        <header>
         <h2>Shopster</h2>
         <button onClick={onDarkModeClick}>
           {isDarkMode ? "Dark" : "Light"} Mode
         </button>
-        </Header>
+        </header>
         </>
     );
     }
